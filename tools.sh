@@ -1,6 +1,6 @@
 #!/bin/bash
-SERVICE_NAME=LY-miner
-conf_PATH=/etc/miner/conf
+SERVICE_NAME=lyminer
+conf_PATH=/etc/lyminer/conf
 toml_PATH=${conf_PATH}/app.toml 
 hellominer_db=${conf_PATH}/hellominer.db
 is_yum=`which yum | wc -c`
