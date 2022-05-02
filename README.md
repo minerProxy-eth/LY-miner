@@ -50,7 +50,7 @@ bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/instal
 `
 
 #### 修改程序配置
-st-miner提供了一键配置脚本只需运行：
+LY-miner提供了一键配置脚本只需运行：
 
 `
 bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/tools.sh)"
