@@ -1,6 +1,6 @@
-# st-miner
+# LY-miner
 
-最新`ETH`/`ETC`矿池代理中转程序`st-miner`
+最新`ETH`/`ETC`矿池代理中转程序`LY-miner`
 Web界面操作，简单易用，一键安装，小白可以轻松上手。可以自定义抽水，独创PID抽水算法，稳定精准，秒杀一切市面上随机抽水算法。
 采用Golang语言开发，性能稳定优异。无视CC，自动CC防护，自动封IP。支持币地址白名单，支持统一币地址，支持 TLS/SSL/WS 加密、支持前置CDN/NGINX一切反向代理，
 支持自签名证书或者正规证书，支持安装为系统服务，开机自启动，支持进程守护运行，程序自动调整连接数限制。
@@ -36,7 +36,7 @@ Web界面操作，简单易用，一键安装，小白可以轻松上手。可�
 如果是小白，可以执行下面的一键安装脚本，就把st-miner安装为了系统服务。
 
 ```shell
-bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/install.sh)" @ install
+bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/install.sh)" @ install
 ```
 
 默认管理端口是`51301`，假设你的vps的IP是，`192.168.1.1`，那么访问：`http://192.168.1.1:51301` 就可以进入管理登录页面，默认密码是：`123456` 进入后台后，点击右上角头像可以修改密码。
@@ -46,14 +46,14 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/install.sh)"
 更新程序只需要执行：
 
 `
-bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/install.sh)" @ update
+bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/install.sh)" @ update
 `
 
 #### 修改程序配置
 st-miner提供了一键配置脚本只需运行：
 
 `
-bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/tools.sh)"
+bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/tools.sh)"
 `
 
 可对监听端口 后台密码 cc防护开关 进行控制
