@@ -48,7 +48,7 @@ bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/instal
  4. 程序状态：`systemctl status lyminer` 
  5. 启动日志：`/etc/lyminer/lyminer logs` 
  6. 程序卸载：`/etc/lyminer/lyminer uninstall` 
- 7. 程序配置文件路径：`/etc/lyminer/conf`，可以通过修改`/etc/hellominer/conf/app.toml`里面的配置修改程序web管理端口。 
+ 7. 程序配置文件路径：`/etc/lyminer/conf`，可以通过修改`/etc/lyminer/conf/app.toml`里面的配置修改程序web管理端口。 
  8. 默认管理端口是`51301`，假设你的vps的IP是，`192.168.1.1`，那么访问：`http://192.168.1.1:51301` 就可以进入管理登录页面，默认密码是：`123456` 
  。进入后台后，点击右上角头像可以修改密码。 
 
