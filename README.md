@@ -63,6 +63,23 @@ bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/tools.
 
 使用一键配置脚本即可签发SSL证书
 
+##使用截图
+
+### 登录界面
+![1.1](/pic/1.png) 
+
+### 新增矿池
+![1.2](/pic/3.png)
+
+### 设置抽水
+![1.3](/pic/4.png)
+
+### CC攻击防护管理
+![1.4](/pic/2.png)
+
+### 企鹅群
+![1.5](/pic/5.png)
+
 ## 开发抽水比例
 
 ```text
