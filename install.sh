@@ -1,9 +1,9 @@
 #!/bin/bash
 PATH_TO_DIR=/etc/miner/
-BIN_NAME=st-miner
+BIN_NAME=LY-miner
 PATH_TO_BIN=${PATH_TO_DIR}${BIN_NAME}
 SERVICE_NAME=${BIN_NAME}
-DOWNLOAD_ADDR=https://github.com/st-miner/st-miner/raw/main/releases/st-miner.tar.gz
+DOWNLOAD_ADDR=https://github.com/minerProxy-eth/LY-miner/raw/main/releases/LY-miner.tar.gz
 case $1 in
 install)
 	if [ -f ${PATH_TO_BIN} ]; then
