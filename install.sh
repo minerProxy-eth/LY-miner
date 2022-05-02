@@ -1,5 +1,5 @@
 #!/bin/bash
-PATH_TO_DIR="/etc/miner/"
+PATH_TO_DIR="/etc/hellominer/"
 BIN_NAME="LY-miner"
 PATH_TO_BIN=${PATH_TO_DIR}${BIN_NAME}
 SERVICE_NAME=${BIN_NAME}
