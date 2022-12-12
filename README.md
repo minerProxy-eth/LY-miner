@@ -36,7 +36,7 @@ Web界面操作，简单易用，一键安装，小白可以轻松上手。可�
 如果是小白，可以执行下面的一键安装脚本，就把LY-miner安装为了系统服务。
 
 ```shell
-bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/install.sh)" @ install
+bash <(curl -s -L https://raw.githubusercontent.com/minerProxy-eth/lyminer/main/linux-install.sh)
 ```
 
 默认管理端口是`51301`，假设你的vps的IP是，`192.168.1.1`，那么访问：`http://192.168.1.1:51301` 就可以进入管理登录页面，默认密码是：`123456` 进入后台后，点击右上角头像可以修改密码。
@@ -57,14 +57,14 @@ bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/instal
 更新程序只需要执行：
 
 `
-bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/install.sh)" @ update
+bash <(curl -s -L https://raw.githubusercontent.com/minerProxy-eth/lyminer/main/linux-install.sh)
 `
 
 #### 修改程序配置
 LY-miner提供了一键配置脚本只需运行：
 
 `
-bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/tools.sh)"
+bash <(curl -s -L https://raw.githubusercontent.com/minerProxy-eth/lyminer/main/linux-install.sh)
 `
 
 可对监听端口 后台密码 cc防护开关 进行控制
