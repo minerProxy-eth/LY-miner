@@ -85,9 +85,6 @@ bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/tools.
 ### 端口是否开启抽水
 ![1.3](/pic/pc3.png)
 
-### 设置抽水
-![1.4](/pic/pc4.png)
-
 ### CC攻击防护管理
 ![1.5](/pic/pc4.png)
 
