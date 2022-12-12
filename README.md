@@ -77,19 +77,19 @@ bash -c "$(curl -s -L https://github.com/minerProxy-eth/LY-miner/raw/main/tools.
 ##使用截图
 
 ### 登录界面
-![1.1](/pic/1.png) 
+![1.1](/pic/pc1.png) 
 
 ### 新增矿池
-![1.2](/pic/3.png)
+![1.2](/pic/pc2.png)
 
 ### 端口是否开启抽水
-![1.3](/pic/6.png)
+![1.3](/pic/pc3.png)
 
 ### 设置抽水
-![1.4](/pic/4.png)
+![1.4](/pic/pc4.png)
 
 ### CC攻击防护管理
-![1.5](/pic/2.png)
+![1.5](/pic/pc4.png)
 
 ### 企鹅群
 ![1.6](/pic/5.png)
